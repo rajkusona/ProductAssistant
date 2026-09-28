@@ -1,0 +1,43 @@
+# Build / IDE generated content
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Azure Functions local runtime / secrets
+local.settings.json
+appsettings.json
+*.local.settings.json
+*.secrets.json
+
+# Environment and credentials
+.env
+.env.*
+*.pem
+*.pfx
+*.crt
+*.key
+
+# Logs and diagnostics
+logs/
+*.log
+
+# Project-specific local startup scripts
+Set-UserEnvironment.ps1
+
+# Other generated or temp artifacts
+*.cache
+*.tmp
+*.bak
+Thumbs.db
+Desktop.ini
+
+# NPM / Node local files
+node_modules/
+
+# Publish outputs
+publish/

@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "AzureOpenAI__Endpoint": "https://your-resource.openai.azure.com/",
+    "AzureOpenAI__ApiKey": "set-locally-only",
+    "AzureOpenAI__Deployment": "your-deployment-name",
+    "AzureOpenAI__ApiVersion": "2024-10-21"
+  }
+}
